@@ -1,6 +1,7 @@
 :root
 {
     --background_color:#D2d2d2;
+    --photo-background-color:#c4c4c4;
     --logo_color:#ffffff;
     --button-bg-color:#000000;
     --footer-font-color:#ffffff;
@@ -8,6 +9,9 @@
     --font: system-ui, -apple-system, "Monsterrat";
     --book-color:gray;
     --header-footer-font:15px;
+    --offer-text-size-b:36px;
+    --offer-text-size:18px;
+    --button-text-color:white;
 
 }
 #header
@@ -76,10 +80,54 @@
     font-family: var(--font);
 }
 .basket_triangle{
-    top:0px;
     width:0px;
     height:0px;
     border-left:6px solid transparent;
     border-right:6px solid transparent;
     border-top:6px solid black;
+}
+#first_screen{
+    width:2000px;
+    height:636px;
+    margin-left: -10px;
+}
+.offer{
+    margin-left:236px;
+    margin-top:215px;
+    width:486px;
+    height:283px;
+
+    font-family:var(--font);
+    font-size: var(--offer-text-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.offer_text_b{
+    font-size:var(--offer-text-size-b);
+}
+button{
+    
+    width:270px;
+    height:67px;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    font-size: var(--offer-text-size);
+}
+.snickers_bg{
+    width:500px;
+    height:504px;
+    background-color: var(--photo-background-color);
+    margin-left:985px;
+    margin-top: -516px;
+    display: flex;
+    gap:10px;
+    justify-content: flex-end;
+    padding: 36px;
+}
+.slide_rect{
+    width:42px;
+    height:8px;
+    background-color: var(--background_color);
+    margin-top:456px;
 }
