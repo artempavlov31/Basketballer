@@ -1,0 +1,85 @@
+:root
+{
+    --background_color:#D2d2d2;
+    --logo_color:#ffffff;
+    --button-bg-color:#000000;
+    --footer-font-color:#ffffff;
+    --font-color:#000000;
+    --font: system-ui, -apple-system, "Monsterrat";
+    --book-color:gray;
+    --header-footer-font:15px;
+
+}
+#header
+{
+    display: flex;
+    align-items: center;
+    width:2000px;
+    height:100px;
+    margin-top:-20px;
+    margin-left:-10px;
+    background-color: var(--background_color); 
+    font-family: var(--font);
+    
+}
+.logo_1
+{
+    width:40px;
+    height:40px;
+    border-top:40px;
+    background-color: var(--logo_color);
+    margin-left: 280px;
+    margin-right:25px;
+}
+.logo_2{
+    background-color: var(--logo_color);
+    width:40px;
+    height:40px;
+}    
+
+.items{
+    width:235px;
+    height:15px;
+    display:flex;
+    margin-left:20px;
+    gap:20px;
+    font-family: var(--font);
+    
+}
+.triple_dot{
+    display: flex;
+    gap:4px;
+    margin-left: 60px;
+    width:23px;
+    text-align: center;
+    margin-right:100px;
+    font-family: var(--font);
+}
+.book_call{
+ margin-left:30px;
+ width:125px;
+ height:35px;
+ border:solid 1px var(--book-color);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: var(--header-footer-font);
+}
+.shopping_basket{
+    margin-left: 80px;
+    width:170px;
+    height:40px;
+    display: flex;
+    align-items: stretch;
+    align-items: center;
+    gap:15px;
+    font-family: var(--font);
+}
+.basket_triangle{
+    top:0px;
+    width:0px;
+    height:0px;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    border-top:6px solid black;
+}
