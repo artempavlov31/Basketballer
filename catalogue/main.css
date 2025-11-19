@@ -11,12 +11,15 @@
     --header-footer-font:15px;
     --offer-text-size-b:36px;
     --offer-text-size:18px;
+    --numbers-font-size:50px;
     --button-text-color:white;
     --nav-arrow-color:black;
     --nav-line-color:#c4c4c4;
     --nav-block-color:#8d8d8d;
 
+
 }
+
 #header
 {
     display: flex;
@@ -216,4 +219,48 @@ button{
     height:594px;
     width:584px;
     background-color: var(--photo-background-color);
+}
+
+#catalogue{
+    width:1270px;
+    height:818px;
+    margin-top:125px;
+    margin-left:335px;
+    font-family: var(--font);
+    
+}
+.catalogue_pictures{
+    display: grid;
+    grid-template-columns:repeat(4,275px);
+    grid-template-rows:repeat(2,335px);
+    justify-content: space-evenly;
+    row-gap:50px;
+    margin-top: 80px;
+    
+}
+.picture{
+    background-color: var(--photo-background-color);
+}
+#about_us{
+    width:1270px;
+    height:500px;
+    margin-left: 335px;
+    font-family: var(--font);
+    margin-top: 125px;
+}
+.numbers{
+    gap:50px;
+    display: flex;
+    flex-direction:row;
+    
+    
+}
+.number{
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+.num{
+    font-weight: 900;
+    font-size: var(--numbers-font-size);
 }
