@@ -252,15 +252,19 @@ button{
     gap:50px;
     display: flex;
     flex-direction:row;
+    align-items: center;
     
     
 }
 .number{
     margin-top: 50px;
-    justify-content: center;
+    
     
 }
 .num{
     font-weight: 900;
     font-size: var(--numbers-font-size);
+}
+sup{
+    font-size: var(--offer-text-size);
 }
