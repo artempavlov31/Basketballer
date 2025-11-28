@@ -16,26 +16,30 @@
   --text-size:12px;
   --bold-text-size:36px;
 }
+body{
+  width:1500px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
 #header {
   display: flex;
   align-items: center;
-  width: 2000px;
-  height: 100px;
+  width: 1600px;
+  height: 84px;
   margin-top: -20px;
-  margin-left: -10px;
   background-color: var(--background_color);
   font-family: var(--font);
   color: var(--main-font-color);
   font-size: var(--text-size);
-
+  
 }
 .logo_1 {
   width: 29px;
   height: 29px;
   border-top: 40px;
   background-color: var(--logo-bg_color);
-  margin-left: 280px;
-  margin-right: 25px;
+  margin-left: 219px;
+  margin-right: 15px;
   transform: rotate(45deg);
 }
 img{
@@ -59,11 +63,11 @@ img{
   &.hd,
   &.ft {
   margin-left: 30px;
-  gap: 40px;
+  gap: 32.5px;
   }
   &.hg {
   margin-left:450px;
-  gap: 60px;
+  gap: 63.5px;
   margin-top: -45px;
   }
 }
@@ -76,7 +80,7 @@ img{
 .triple_dot {
   display: flex;
   gap: 4px;
-  margin-left: 110px;
+  margin-left: 64px;
   margin-right: 100px;
   width: 23px;
   text-align: center;
@@ -89,6 +93,8 @@ img{
   width: 119px;
   height: 15px;
   font-weight: 700;
+  position: absolute;
+  margin-left: 900px;
 }
 .book_call {
   margin-left: 30px;
@@ -100,21 +106,24 @@ img{
   justify-content: center;
   color:var(--Accent-color);
   font-weight: 700;
+  position: absolute;
+  margin-left: 1065px;
   &.foot{
-    margin-left: 140px;
+    margin-left: 1262px;
   } 
 }
 
 
 
 .shopping_basket {
-  margin-left: 80px;
-  width: 170px;
-  height: 40px;
+  margin-left: 1245px;
+  width: 125px;
+  height: 25px;
   display: flex;
   align-items: stretch;
   align-items: center;
   gap: 15px;
+  position: absolute;
 }
 .basket_triangle {
   width: 0px;
@@ -124,17 +133,17 @@ img{
   border-top: 6px solid black;
 }
 #first_screen {
-  width: 2000px;
-  height: 636px;
+  width: 1600px;
+  height: 455px;
   margin-left: -10px;
   font-family: var(--font);
   color: var(--main-font-color);
 }
 .offer{
-  margin-left: 286px;
-  margin-top: 35px;
-  width: 486px;
-  height: 369px;
+  margin-left: 215px;
+  margin-top: 150px;
+  width: 544px;
+  height: 279px;
   font-size: var(--offer-text-size);
   display: flex;
   flex-direction: column;
@@ -168,7 +177,8 @@ button:hover{
 .snickers_bg {
   width: 615px;
   height: 369px;
-  margin-left: 985px;
+  position: absolute;
+  margin-left: 792px;
   margin-top: -405px;
   display: flex;
   gap: 10px;
@@ -180,8 +190,10 @@ button:hover{
   color: var(--footer-banner-font-color);
 }
 .first_scr_image{
-    width: 884px;
+    width: 554px;
+    height: 332px;
     top: 164px;
+    right: 320px;
     position: absolute;
   }
 
@@ -228,14 +240,14 @@ button:hover{
 
 
 #hot_goods {
-  width: 1480px;
-  height: 483px;
-  margin-left: 190px;
+  width: 1292px;
+  height: 576px;
+  margin-left: 174px;
   margin-top: 30px;
   font-family: var(--font);
   color: var(--main-font-color);
   h2{
-  margin-left: 75px;
+  margin-left: 55px;
   font-weight: 900;
   font-size: var(--h2-size);
   }
@@ -246,8 +258,8 @@ button:hover{
   margin-top: 80px;
 }
 .pic{
-  width: 317px;
-  height: 387px;
+  width: 270px;
+  height: 417px;
   box-shadow: 0 15px 30px 0 var(--pics-shadow-box);
   display: flex;
   align-items: center;
@@ -301,8 +313,8 @@ button:hover{
 }
 .arrow {
   align-self: center;
-  width: 46px;
-  height: 46px;
+  width: 23px;
+  height: 23px;
   border: 2px solid var(--Secondary-color);
   border-left: 0;
   border-top: 0;
@@ -325,11 +337,11 @@ button:hover{
   width: 1480px;
   height: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-left:407px ;
 }
 .nav_line {
-  width: 570px;
+  width: 470px;
   height: 6px;
   background-color: #e2e4f2;
 }
@@ -337,8 +349,8 @@ button:hover{
   width: 47px;
   height: 13px;
   background-color: var(--Secondary-color);
-  margin-right: 242px;
   position: absolute;
+  margin-left: 197px;
   box-shadow: 0 2px 10px 0 var(--nav-rect-shadow-box);
 }
 .nav_rect:hover{
@@ -347,17 +359,18 @@ button:hover{
   transition: .2s;
 }
 #banners {
-  width: 1270px;
-  height: 594px;
-  margin-left: 295px;
-  margin-top: 185px;
+  width: 1167px;
+  height: 419px;
+  margin-left: 230px;
+  margin-top: 85px;
   display: flex;
   gap: 40px;
+  
   font-family: var(--font);
 }
 .banner {
-  height: 564px;
-  width: 894px;
+  width: 570px;
+  height: 419px;
   background-color: var(--photo-background-color);
   box-shadow: 0 15px 30px 0 var(--pics-shadow-box);
   color:var(--footer-banner-font-color);
@@ -374,7 +387,7 @@ button:hover{
     height:19px;
     background-color: var(--background_color);
     margin-left: 60px;
-    margin-top: 404px;
+    margin-top: 295px;
   }
 
 }
@@ -401,10 +414,10 @@ button:hover{
   margin-left: 85px;
 }
 #catalogue {
-  width: 1270px;
-  height: 818px;
+  width: 1171px;
+  height: 945px;
   margin-top: 125px;
-  margin-left: 235px;
+  margin-left: 215px;
   font-family: var(--font);
   color: var(--main-font-color);
   h2{
@@ -414,7 +427,7 @@ button:hover{
 }
 .pics_catalogue{
   display: grid;
-  grid-template-columns: repeat(4, 275px);
+  grid-template-columns: repeat(4, 235px);
   grid-template-rows: repeat(2, 335px);
   gap: 100px;
   margin-top: 80px;
@@ -422,11 +435,11 @@ button:hover{
 }
 
 #about_us {
-  width: 1800px;
-  height: 250px;
-  margin-left: 195px;
+  width: 1300px;
+  height: 144px;
+  margin-left: 215px;
   font-family: var(--font);
-  margin-top: 180px;
+  margin-top: 152px;
   color: var(--main-font-color);
   h2{
     margin-left: 27px;
@@ -435,7 +448,7 @@ button:hover{
   }
 }
 .numbers {
-  gap: 120px  ;
+  gap: 90px  ;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -453,16 +466,19 @@ sup {
   font-weight:400;
 }
 #footer {
-  width: 2000px;
+  width: 3200px;
   height: 276px;
   background-color: var(--footer-bg-color);
-  margin-left: -10px;
+  margin-left: -1000px;
   margin-bottom: -10px;
+  margin-top: 200px;
   display: flex;
   align-items: center;
   font-family: var(--font);
   color: var(--footer-banner-font-color);
   font-size: var(--text-size);
+  padding-left: 1000px;
+
 }
 .arrow_up {
   position: relative;
